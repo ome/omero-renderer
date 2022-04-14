@@ -1,3 +1,10 @@
+5.5.8 (April 2022)
+------------------
+
+- Use maven central. ([#19](https://github.com/ome/omero-renderer/pull/19))
+- Use Gradle 6. ([#18](https://github.com/ome/omero-renderer/pull/18))
+- Bump omero-romio version to 5.6.3.
+
 5.5.7 (September 2020)
 ----------------------
 

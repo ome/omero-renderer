@@ -1,3 +1,10 @@
+5.5.10 (April 2022)
+------------------
+
+- Bump omero-romio version to 5.7.0.
+- Bump org.openmicroscopy.project plugin to 5.5.4 ([#22](https://github.com/ome/omero-renderer/pull/22))
+- Add Gradle publication workflow ([#22](https://github.com/ome/omero-renderer/pull/22))
+
 5.5.9 (April 2022)
 ------------------
 

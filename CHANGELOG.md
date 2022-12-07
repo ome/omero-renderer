@@ -1,4 +1,10 @@
-5.5.10 (April 2022)
+5.5.11 (December 2022)
+----------------------
+
+- Bump to TestNG 7.5 ([#21](https://github.com/ome/omero-renderer/pull/21))
+- Bump omero-romio version to 5.7.1.
+
+5.5.10 (June 2022)
 ------------------
 
 - Bump omero-romio version to 5.7.0.

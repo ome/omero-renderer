@@ -1,3 +1,9 @@
+5.5.12 (March 2023)
+-------------------
+
+- Push to releases folder on artifactory ([#24](https://github.com/ome/omero-renderer/pull/24))
+- Bump omero-romio version to 5.7.2.
+
 5.5.11 (December 2022)
 ----------------------
 

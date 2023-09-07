@@ -1,3 +1,9 @@
+5.5.14 (September 2023)
+-----------------------
+
+- Bump omero-romio version to 5.7.4.
+- Add top-level Git mailmap
+
 5.5.13 (July 2023)
 ------------------
 

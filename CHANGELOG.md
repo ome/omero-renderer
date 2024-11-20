@@ -1,3 +1,9 @@
+5.6.0 (November 2024)
+---------------------
+
+- Build with Java 11 ([#27](https://github.com/ome/omero-renderer/pull/27))
+- Bump omero-romio version to 5.8.0.
+
 5.5.17 (July 2024)
 ------------------
 

@@ -1,3 +1,9 @@
+5.6.2 (March 2025)
+------------------
+
+- Bump omero-romio version to 5.8.2
+- Specify Java target using release flag ((#29)[https://github.com/ome/omero-renderer/pull/29])
+
 5.6.1 (March 2025)
 ------------------
 

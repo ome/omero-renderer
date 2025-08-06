@@ -8,7 +8,7 @@ package util.mocks;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.apache.commons.lang.ObjectUtils;
+import org.apache.commons.lang3.ObjectUtils;
 
 /**
  * Helper class to represent a method signature in a {@link MockedCall}.

@@ -161,7 +161,7 @@ class RenderHSBRegionTask implements RenderingTask {
             int gColor = color[ColorsFactory.GREEN_INDEX];
             int bColor = color[ColorsFactory.BLUE_INDEX];
 
-            float alpha = new Float(
+            float alpha = Float.valueOf(
                     color[ColorsFactory.ALPHA_INDEX]).floatValue() / 65025;// 255*255
             for (int x2 = x2Start; x2 < x2End; ++x2) {
                 for (int x1 = x1Start; x1 < x1End; ++x1) {
@@ -256,7 +256,7 @@ class RenderHSBRegionTask implements RenderingTask {
             if (isPrimaryColor && reader == null)
                 colorOffset = getColorOffset(color);
 
-            float alpha = new Integer(
+            float alpha = Integer.valueOf(
                     color[ColorsFactory.ALPHA_INDEX]).floatValue() / 255;
             for (int x2 = x2Start; x2 < x2End; ++x2) {
                 for (int x1 = x1Start; x1 < x1End; ++x1) {
@@ -401,7 +401,7 @@ class RenderHSBRegionTask implements RenderingTask {
             if (isPrimaryColor)
                 colorOffset = getColorOffsetAsRGBA(color);
 
-            float alpha = new Integer(color[ColorsFactory.ALPHA_INDEX]).floatValue() / 255;
+            float alpha = Integer.valueOf(color[ColorsFactory.ALPHA_INDEX]).floatValue() / 255;
             for (int x2 = x2Start; x2 < x2End; ++x2) {
                 for (int x1 = x1Start; x1 < x1End; ++x1) {
                     pix = width * x2 + x1;

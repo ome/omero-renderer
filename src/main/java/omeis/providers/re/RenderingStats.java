@@ -132,7 +132,7 @@ public class RenderingStats
      * @see #endIO(int)
      */
     public void startIO(int c) {
-        ioTime.put(new Integer(c), new Long(System.currentTimeMillis()));
+        ioTime.put(Integer.valueOf(c), Long.valueOf(System.currentTimeMillis()));
     }
 
     /**
@@ -144,9 +144,9 @@ public class RenderingStats
      * @see #startIO(int)
      */
     public void endIO(int c) {
-        Integer channel = new Integer(c);
+        Integer channel = Integer.valueOf(c);
         long start = ((Long) ioTime.get(channel)).longValue();
-        ioTime.put(channel, new Long(System.currentTimeMillis() - start));
+        ioTime.put(channel, Long.valueOf(System.currentTimeMillis() - start));
     }
 
     /**

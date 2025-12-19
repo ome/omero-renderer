@@ -43,9 +43,9 @@ public class MockInputStream extends InputStream implements IMock {
     // thrown in verification mode.
     public void read(byte[] buffer, int offset, int length, int retVal,
             Exception e) {
-        Object[] args = new Object[] { buffer, new Integer(offset),
-                new Integer(length) };
-        MockedCall mc = new MockedCall(read3, args, new Integer(retVal));
+        Object[] args = new Object[] { buffer, Integer.valueOf(offset),
+                Integer.valueOf(length) };
+        MockedCall mc = new MockedCall(read3, args, Integer.valueOf(retVal));
         if (e != null) {
             mc.setException(e);
         }
@@ -57,9 +57,9 @@ public class MockInputStream extends InputStream implements IMock {
     // Then it returns that return value set in the set-up call.
     @Override
     public int read(byte[] buffer, int offset, int length) throws IOException {
-        Object[] args = new Object[] { buffer, new Integer(offset),
-                new Integer(length) };
-        MockedCall mc = new MockedCall(read3, args, new Integer(0));
+        Object[] args = new Object[] { buffer, Integer.valueOf(offset),
+                Integer.valueOf(length) };
+        MockedCall mc = new MockedCall(read3, args, Integer.valueOf(0));
         mc = mockSupport.verifyCall(mc);
         if (mc.hasException()) {
             Exception e = (Exception) mc.getException();
